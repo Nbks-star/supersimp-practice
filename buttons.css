@@ -1,0 +1,208 @@
+/* This file is linked to the buttons html file */
+    .sub-button{
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 16px;
+       padding-right: 16px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 9px;
+        font-size: 16px;
+        transition: opacity 0.16s;
+        vertical-align: top;
+    }
+    .sub-button:hover{
+        opacity: 0.8;
+    }
+    .sub-button:active{
+       opacity: 0.5;
+    }
+    .join-button{
+        background-color: white;
+        color: rgb(53, 62, 239);
+        border-color: rgb(53, 62, 239);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-right: 9px;
+        font-weight: bold;
+        transition: background-color 0.25s,color 0.25s;
+        vertical-align: top;
+    }
+    .join-button:hover{
+        background-color: rgb(53, 62, 239);
+        color: white;
+    }
+    .join-button:active{
+        opacity: 0.75;
+    }
+    .tweet-button{
+        background-color: rgb(53, 137, 240);
+        color: white;
+        border-radius: 20px;
+        border: none;
+       /* height: 40px;
+       width: 80px; */
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 16px;
+       padding-right: 16px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 9px;
+        transition: box-shadow 0.16s;
+        vertical-align: top;
+    }
+    .tweet-button:hover
+    {
+        box-shadow: 6px 5px 10px rgba(0,0,0,0.16);
+        /* horizantal vertial and blur color */
+        /* here rgba a means opacity */
+    }
+    .Cart{
+        /* margin-top: 10px; */
+        background-color: rgb(255,216,20);
+        border: none;
+        height:30px;
+        margin-right: 8px;
+        border-radius: 15px;
+        width: 120px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background-color 0.13s;
+    }
+    .Cart:hover{
+        background-color: rgb(255, 205, 4);
+        
+    }
+    .Cart:active{
+        opacity: 0.7;
+    }
+    .buy{
+        margin-right: 8px;
+        background-color: rgb(255,164,28);
+        border: none;
+        height: 30px;
+        width: 120px;
+        border-radius: 15px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background-color 0.13s;
+    }
+    .buy:hover{
+        background-color: rgb(255, 128, 0);
+    }
+    .buy:active{
+        opacity: 0.7;
+    }
+    .anchor{
+        color: rgb(0,113,133);
+        text-decoration: none;
+        transition: color 0.2s;
+
+    }
+    .anchor:hover{
+        color: rgb(61, 3, 101);
+        
+    }
+    .Stretch{
+        background-color: green;
+        color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: none;
+        cursor: pointer;
+        transition:all 0.9s;
+        margin-top: 8px;
+        margin-left: 8px;
+        vertical-align: middle;
+        border-radius: 2px;
+    }
+    .Stretch:hover{
+        padding-left: 36.5px;
+        padding-right: 36.5px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        position: relative;
+
+    }
+    .thred{
+        background-color: green;
+        color: white;
+        padding-left: 19px;
+        padding-right: 19px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: none;
+        box-shadow: 3px 3px 5px black;
+        transition: all 1ms;
+    }
+    .thred:hover{
+        opacity: 0.9;
+    }
+    .thred:active{
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        box-shadow: 0 0 0;
+    }
+    .noone{
+        background-color: green;
+        border: none;
+        padding: 4px 14px 4px 14px;
+        color: white;
+        vertical-align: middle;
+        margin: 3.5px;
+        transform: all 2s;
+
+    }
+    .noone:hover{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 1px;
+        opacity: 0.9;
+    }
+    .notwo{
+        background-color: green;
+        border: none;
+        padding: 4px 14px 4px 14px;
+        color: white;
+        vertical-align: middle;
+        margin: 3.5px;
+        transform: all 2s;
+    }
+    .notwo:hover{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 1px;
+        opacity: 0.9;
+    }
+    .nothree
+{
+    background-color: green;
+    border: none;
+    padding: 4px 14px 4px 14px;
+    color: white;
+    vertical-align: middle;
+    margin: 3.5px;
+    transform: all 2s;
+}
+.nothree:hover{
+    padding-left: 20px;
+        padding-right: 20px;
+        margin: 1px;
+        opacity: 0.9;
+}
